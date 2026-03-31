@@ -1,0 +1,422 @@
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #0b1220;
+}
+html {
+    scroll-behavior: smooth;
+}
+.headtitle
+{
+    font-size: 20px;
+    color: rgba(191, 139, 240, 0.95);
+    margin-left: 20px;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(115, 17, 132, 0.8);
+    border-radius: 15px;
+    padding: 30px 40px;
+    background-color: rgba(11, 18, 32, 0.8);
+    gap: 15px;
+    max-width: 400px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.mainimg
+{
+   border-radius: 15px;
+   height: 250px;
+   width: auto;
+}
+.intro
+{
+    color: rgba(198, 192, 203, 0.95);
+}
+.introname
+{
+    color: rgba(191, 139, 240, 0.95);
+}
+.intpee
+{
+    color: rgba(198, 192, 203, 0.95);
+}
+.cvbutton
+{
+    border-radius: 10px;
+    color: rgb(164, 205, 127);
+    background: linear-gradient(
+        to right,
+        rgba(110, 43, 186, 0.719) , 
+        rgba(79, 57, 97, 0.575)
+    );
+    border-color: rgb(34, 97, 92);
+    border: none;
+    padding: 10px 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out ;
+}
+.cvbutton:hover{
+    background: linear-gradient(
+        to right,
+        rgb(98, 23, 105) ,
+        rgb(181, 45, 108)
+    );
+    transition: 0.15s ease-in-out ;
+    box-shadow: 0 6px 15px rgba(96, 113, 211, 0.8);
+    transform: translateY(-3px);
+}
+.aboutbut
+{
+    border-radius: 10px;
+    color: rgb(144, 171, 120);
+    background: linear-gradient(
+        to right,
+        rgba(132, 61, 212, 0.719) , 
+        rgba(79, 57, 97, 0.575)
+    );
+    border-color: rgb(34, 97, 92);
+    border: none;
+    padding: 10px 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out ;
+}
+.aboutbut:hover
+{
+    background: linear-gradient(
+        to right,
+        rgb(98, 23, 105) ,
+        rgb(181, 45, 108)
+    );
+    transition: 0.15s ease-in-out ;
+    box-shadow: 0 6px 15px rgba(96, 113, 211, 0.8);
+    transform: translateY(-3px);
+}
+.abtdiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 100px;
+    width: 100%;
+    gap: 40px;
+    
+}
+
+.imageabt {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.abtimg {
+    width: 60%;
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+.abttext {
+    width: 40%;
+    color: rgba(198, 192, 203, 0.95);
+    margin-right: 50px;
+}
+
+.myintro {
+    color: rgba(198, 192, 203, 0.95);
+    margin: 0;
+}
+
+.abouth {
+    color: rgba(191, 139, 240, 0.95);
+    margin: 10px 0;
+}
+
+.abttext p {
+    line-height: 1.6;
+}
+.contactbut{
+    display: inline-block;
+    border-radius: 10px;
+    color: rgb(144, 171, 120);
+    background: linear-gradient(
+        to right,
+        rgba(132, 61, 212, 0.719),
+        rgba(79, 57, 97, 0.575)
+    );
+    border: none;
+    padding: 10px 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+    text-decoration: none;   
+}
+
+.contactbut:hover{
+    background: linear-gradient(
+        to right,
+        rgb(98, 23, 105),
+        rgb(181, 45, 108)
+    );
+    box-shadow: 0 6px 15px rgba(96, 113, 211, 0.8);
+    transform: translateY(-3px);
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+i 
+{
+    font-size: 22px;
+    color: rgb(177, 151, 252);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+i:hover
+{
+    color: rgb(255, 255, 255);
+    transform: rotate(20deg) scale(1.2);
+}
+.iconsmain {
+    display: flex;        
+    flex-direction: row;  
+    gap: 15px;            
+    margin: 10px 0;       
+}
+.skillsdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 100px; 
+    text-align: center;
+    width: 100%;
+}
+
+.skih {
+    color: rgba(191, 139, 240, 0.95);
+    margin-bottom: 20px;
+}
+
+.skillsrec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    list-style: none;
+}
+
+.rec:hover
+{
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(115, 17, 132, 0.5); 
+    background-color: rgba(8, 0, 0, 0.9);
+}
+.rec {
+    width: 28%;  
+    border: 2px solid rgba(115, 17, 132, 0.8);
+    border-radius: 15px;
+    padding: 25px;
+    background-color: rgba(20, 30, 50, 0.8);
+    transition: 0.3s ease;
+    text-align: left;
+}
+
+.rec:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(115, 17, 132, 0.5);
+}
+
+.rec i {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgba(191, 139, 240, 0.95);
+    display: block; 
+}
+
+.rec h5 {
+    margin: 5px 0;
+    color: rgba(191, 139, 240, 0.95);
+    font-size: 18px;
+}
+
+.rec .years {
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    color: white;
+}
+
+.rec p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(198, 192, 203, 0.95);
+    margin: 0;
+}
+.projectsdiv {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projh {
+    color: rgba(191, 139, 240, 0.95);
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.projectsrec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+}
+
+.projectcard {
+    width: 280px;
+    background-color: rgba(20, 30, 50, 0.8);
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.projectcard img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.projectcard h5 {
+    margin: 10px 0;
+}
+
+.demo {
+    color: rgba(191, 139, 240, 0.95);
+    cursor: pointer;
+}
+
+.projectcard:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(115, 17, 132, 0.5);
+}
+.contact-section {
+    padding: 50px 10%;
+    margin-top: 50px;
+}
+
+.contact-title {
+    text-align: center;
+    color: rgba(191, 139, 240, 0.95);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-wrapper {
+    display: flex; 
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contact-info, .contact-form {
+    width: 45%; 
+}
+
+.info-box {
+    background: rgba(20, 30, 50, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid rgba(115, 17, 132, 0.5);
+    color: rgba(198, 192, 203, 0.95);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+    border: 1px solid rgba(115, 17, 132, 0.5);
+    border-radius: 10px;
+    color: white;
+}
+
+.submit-btn {
+    background: rgba(132, 61, 212, 0.719);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.write-me {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgba(191, 139, 240, 0.95);
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.write-me:hover {
+    color: white;
+    transform: translateX(5px); 
+}
+
+.write-me i {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.floating-nav {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(20, 30, 50, 0.9);
+    padding: 15px 30px;
+    border-radius: 50px;
+    display: flex;
+    gap: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(191, 139, 240, 0.3);
+    z-index: 1000;
+}
+
+.nav-item {
+    color: rgba(191, 139, 240, 0.7);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    color: white;
+    transform: scale(1.2);
+}
+.github-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgba(191, 139, 240, 0.95);
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.github-link:hover {
+    color: white;
+    transform: scale(1.2);
+}
