@@ -420,3 +420,93 @@ i:hover
     color: white;
     transform: scale(1.2);
 }
+
+@media (max-width: 768px){
+
+  .head{
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .headtitle{
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .main{
+    padding: 22px 18px;
+  }
+  .mainimg{
+    height: auto;
+    width: 100%;
+    max-width: 320px;
+  }
+  .buttons{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cvbutton, .aboutbut{
+    margin-right: 0;
+  }
+  .abtdiv{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 16px;
+  }
+  .imageabt, .abttext{
+    width: 100%;
+  }
+  .abttext{
+    margin-right: 0;
+    text-align: center;
+  }
+  .abtimg{
+    width: min(70%, 220px);
+  }
+  .skillsrec{
+    padding: 0 12px;
+  }
+  .rec{
+    width: 100%;
+  }
+
+  .projectsrec{
+    width: 100%;
+    padding: 0 12px;
+  }
+  .projectcard{
+    width: 100%;
+    max-width: 420px;
+  }
+  .contact-section{
+    padding: 40px 16px;
+  }
+  .contact-wrapper{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-info, .contact-form{
+    width: 100%;
+  }
+
+  .floating-nav{
+    gap: 18px;
+    padding: 12px 18px;
+  }
+  .nav-item{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px){
+  .floating-nav{
+    gap: 14px;
+    padding: 10px 14px;
+  }
+  .nav-item{
+    font-size: 16px;
+  }
+}
