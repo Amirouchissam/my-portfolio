@@ -420,3 +420,51 @@ i:hover
     color: white;
     transform: scale(1.2);
 }
+
+@media (max-width: 768px) {
+
+    /* 1. الـ Main Card تولي فوسط الشاشة وماتخرجش */
+    .main {
+        margin-left: 0;
+        margin: 20px auto;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .mainimg {
+        height: 200px;
+    }
+    .abtdiv {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imageabt, .abttext {
+        width: 90%;
+        margin: 0;
+    }
+    .rec, .projectcard {
+        width: 90%;
+    }
+
+    .skillsrec, .projectsrec {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        width: 100%;
+    }
+    .floating-nav {
+        gap: 20px;
+        padding: 12px 20px;
+        bottom: 10px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+    }
+}
